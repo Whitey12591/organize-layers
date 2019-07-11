@@ -7,6 +7,6 @@ nativeLayers.forEach(nativelayer => {
   const layer = sketch.fromNative(nativelayer);
 
   if (layer.selected == true) {
-    layer.moveForward();
+    layer.moveBackward();
   }
 });

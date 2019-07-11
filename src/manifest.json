@@ -7,10 +7,16 @@
       "shortcut": "cmd shift d",
       "identifier": "organize-layers.move-up-identifier",
       "script": "./move-up.js"
+    },
+    {
+      "name": "Move Layer Down",
+      "shortcut": "cmd shift f",
+      "identifier": "organize-layers.move-down-identifier",
+      "script": "./move-down.js"
     }
   ],
   "menu": {
     "title": "Organize-Layers",
-    "items": ["organize-layers.move-up-identifier"]
+    "items": ["organize-layers.move-up-identifier", "organize-layers.move-down-identifier"]
   }
 }
